@@ -27,8 +27,6 @@ public class JuegoAdivinanza {
         
         //Creación del número random
         int numeroRandom = r.nextInt(50)+1;
-        System.out.println(numeroRandom);
-        
         
         //hago un bucle while que saldrá de el si se adivina el número secreto o el contador supera las oportunidades puestas en la constante.
         while(contador < INTENTOS_MAX && numero != numeroRandom) {
